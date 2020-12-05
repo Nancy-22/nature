@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#bg {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    animation-name: nancy;
+    animation-duration: 4s;
+    background-image: url(https://images.unsplash.com/photo-1597783232324-8622cff1bf3b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1789&q=80);
+}
+
+@keyframes nancy {
+    from {
+        background-image: url(https://images.unsplash.com/photo-1597783232324-8622cff1bf3b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1789&q=80);
+    }
+    to {
+        background-image: url(https://images.unsplash.com/photo-1598304194535-eece98d7af5b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1189&q=80);
+    }
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+#nav {
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+#nav a {
+    text-decoration: none;
+    font-size: 15px;
+    align-items: center;
+    color: white;
+}
+
+#bg h1 {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+#overlay p {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 15px;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+#botton1 {
+    width: 150px;
+    transition-duration: 0.4s;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    /* Green */
+    position: absolute;
+    font-size: 15px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#bg2 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#left {
+    height: 80%;
+    width: 40%;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1598534458373-2b2208a150a8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80);
+    top: 150%;
+    right: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 15px rgb(27, 27, 27);
+}
+
+#bg2 h2 {
+    top: 115%;
+    left: 60%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 35px;
+}
+
+#bg2 h3 {
+    top: 125%;
+    left: 60%;
+    color: #4CAF50;
+    position: absolute;
+    font-size: 10px;
+}
+
+#bg2 p {
+    top: 130%;
+    left: 60%;
+    color: #000000;
+    position: absolute;
+    font-size: 14px;
+    width: 300px;
+}
+
+#bg3 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#bg3 h1 {
+    top: 210%;
+    left: 10%;
+    color: #000000;
+    position: absolute;
+    font-size: 20px;
+    width: 300px;
+}
+
+#box1 {
+    top: 220%;
+    left: 10%;
+    color: #000000;
+    position: absolute;
+    font-size: 20px;
+    width: 25%;
+    height: 60%;
+    box-shadow: 5px 3px 15px rgb(27, 27, 27);
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1523859735943-3f47e23c9d4b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlZW4lMjBsYW5kfGVufDB8MXwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+
+#box1 p {
+    text-align: bottom;
+    top: 80%;
+    left: 3%;
+    font-size: 13px;
+    position: relative;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    width: 350px;
+}
+
+#box2 {
+    top: 220%;
+    left: 40%;
+    color: #ffffff;
+    position: absolute;
+    font-size: 20px;
+    width: 25%;
+    height: 60%;
+    box-shadow: 5px 3px 15px rgb(27, 27, 27);
+    background-image: url(https://images.unsplash.com/photo-1593679916468-851527f3ee27?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8Z3JlZW4lMjBsYW5kfGVufDB8MXwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+
+#box2 p {
+    text-align: bottom;
+    top: 80%;
+    left: 3%;
+    font-size: 13px;
+    position: relative;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    width: 350px;
+}
+
+#box3 {
+    top: 220%;
+    left: 70%;
+    color: #ffffff;
+    position: absolute;
+    font-size: 20px;
+    width: 25%;
+    height: 60%;
+    background-size: cover;
+    box-shadow: 5px 3px 15px rgb(27, 27, 27);
+    background-image: url(https://images.unsplash.com/photo-1562638863-ef1c7ffea8ad?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjZ8fGdyZWVuJTIwbGFuZHxlbnwwfDF8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+
+#box3 p {
+    text-align: bottom;
+    top: 80%;
+    left: 3%;
+    font-size: 13px;
+    position: relative;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    width: 350px;
+}
